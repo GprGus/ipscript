@@ -1,0 +1,8 @@
+ip1 = range(256)
+ip2 = range(256)
+ip3 = range(256)
+ip4 = range(256)
+
+for a in ip1:
+    z = str(a)
+    print(z + "." + z + "." + z + "." + z)
