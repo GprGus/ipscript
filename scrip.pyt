@@ -1,8 +1,13 @@
-ip1 = range(256)
-#ip2 = range(256)
-#ip3 = range(256)
-#ip4 = range(256)
-
-for a in ip1:
-    z = str(a)
-    print(z + "." + z + "." + z + "." + z)
+firstDigit = range(256)
+secondDigit = range(256)
+thirdDigit = range(256)
+fourthDigit = range(256)
+for x in firstDigit:
+  for y in secondDigit:
+    for z in thirdDigit:
+        for o in fourthDigit:
+            first = str(x)
+            second = str(y)
+            third = str(z)
+            fourth = str(o)
+            print(first + "." + second + "." + third + "." + fourth)
